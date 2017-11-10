@@ -4,10 +4,12 @@ var MongoClient = require('mongodb').MongoClient,
 
 require('dotenv').load();
 var twitterClient = new Twitter({
-    consumer_key: process.env.TWITTER_CONSUMER_KEY,
-    consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
-    access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
-    access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
+    consumer_key: process.env.EBvMTpAwqv9GgEFHKUXBo3Wfa,
+    consumer_secret: process.env.WYDd5Mp0tEI0BZSbuiCV0eMZVPohYyTroTxlnOtmbO1W6SVd8n
+,
+    access_token_key: process.env.787298372419883009-crUh17Qz5hCvk9FpOkUwbWjZIln5rbz,
+    access_token_secret: process.env.X3GrsFHxYUePnvmp3XPojebLXrKDUJpK20odA24PFnkDT
+
 });
 
 
